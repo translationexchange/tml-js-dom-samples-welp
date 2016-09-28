@@ -2,22 +2,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" dir="ltr">
 
 <head>
-    <script src="http://localhost:8080/tml.js?v=27"></script>
-    <!--<script src="https://cdn.translationexchange.com/tools/tml/stable/tml.min.js"></script>-->
+    <script src="https://cdn.translationexchange.com/tools/tml/stable/tml.min.js"></script>
     <script>
-        tml.init({
-            key:    "2490d272f154b5cbf28b4de25bfc207604f0196c316ddcb42a2486b8a02765e9",
-            host:   "http://localhost:3000",
-            cdn_host: "https://trex-snapshots-dev.s3-us-west-1.amazonaws.com",
-            translateBody: true,
-            version_check_interval: 30,
-            debug: true,
-            language_selector: true,
-            agent: {
-                host: "http://localhost:8282/dist/agent.js"
-            }
-        });
+        tml.init({key: 'f23ea19f8a2ac12dd8249dc5da565bc12107d29aed3f2b27d42080857d264c03', translateBody: true, translateTitle: true, language_selector: false});
     </script>
+
+    <!--<script src="http://localhost:8080/tml.js"></script>-->
+    <!--<script>-->
+        <!--// Development test version-->
+        <!--tml.init({-->
+            <!--key:    "2490d272f154b5cbf28b4de25bfc207604f0196c316ddcb42a2486b8a02765e9",-->
+            <!--host:   "http://localhost:3000",-->
+            <!--cdn_host: "https://trex-snapshots-dev.s3-us-west-1.amazonaws.com",-->
+            <!--translateBody: true,-->
+            <!--version_check_interval: 30,-->
+            <!--debug: true,-->
+            <!--language_selector: true,-->
+            <!--agent: {-->
+                <!--host: "http://localhost:8282/dist/agent.js"-->
+            <!--}-->
+        <!--});-->
+    <!--</script>-->
 
     <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
 
@@ -33,6 +38,11 @@
     <style>
         .ls a {
             color: white;
+        }
+
+        .footer {
+            margin: 40px;
+            text-align: center;
         }
     </style>
 </head>
@@ -76,14 +86,6 @@
         </div>
     </div>
 </div>
-
-<!--<div class="container" style="padding:300px; background: white">-->
-
-<!--<div style="width:250px;padding:10px;border:1px solid #eee;">-->
-    <!--<div data-tml-language-selector="flags"></div>-->
-<!--</div>-->
-
-<!--</div>-->
 
 <div class="container">
 
@@ -276,10 +278,12 @@
 
             </div>
         </div>
-        <br><br><br>
-    </div>
 
-</div> <!-- /container -->
+        <div class="footer">
+            To learn more about how Translation Exchange works, please visit <a href="http://docs.translationexchange.com">our documentation site</a>.
+        </div>
+    </div>
+</div>
 
 
 </body>
