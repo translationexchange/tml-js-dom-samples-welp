@@ -1,0 +1,65 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only"><%- tr("Toggle navigation") %></span>
+            </button>
+            <a class="navbar-brand" href="#">My App</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right">
+                <div class="form-group"><input type="text" placeholder="<%- trl("/>" class="form-control"></div>
+                <div class="form-group"><input type="password" placeholder="<%- trl("/>" class="form-control">
+                </div>
+                <button class="btn btn-success" type="submit"><%- tr("Sign in") %></button>
+
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron">
+    <div class="container">
+        <h1><%- tr("Hello, world!") %></h1>
+        <%- tr("This is a template for a simple marketing or informational website.") %>
+        <%- tr("It includes a large callout called a jumbotron and three supporting pieces of content.") %>
+        <%- tr("Use it as a starting point to create something more unique.") %>
+
+        <a class="btn btn-primary btn-lg" href="#"><%- tr("Learn more {raquo}") %></a>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2><%- tr("Section {num}", {num: 1}) %></h2>
+            <%- tr("Some information for section {num}", {num: 1}) %>
+
+            <a class="btn btn-default" href="#"><%- tr("View details {raquo}") %></a>
+
+        </div>
+        <div class="col-md-4">
+            <h2><%- tr("Section {num}", {num: 2}) %></h2>
+            <%- tr("Some information for section {num}", {num: 2}) %>
+
+            <a class="btn btn-default" href="#"><%- tr("View details {raquo}") %></a>
+
+        </div>
+        <div class="col-md-4">
+            <h2><%- tr("Section {num}", {num: 3}) %></h2>
+            <%- tr("Some information for section {num}", {num: 3}) %>
+
+            <a class="btn btn-default" href="#"><%- tr("View details {raquo}") %></a>
+
+        </div>
+    </div>
+
+    <hr/>
+
+    <footer>
+        <div style="float: right;"><%- tml_language_selector("popup") %></div>
+        © My App 2015
+    </footer>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

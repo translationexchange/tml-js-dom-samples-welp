@@ -1,0 +1,359 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" dir="ltr">
+
+<head>
+  <script src="https://tools.globalize.io/sdk/js/stable/tml.min.js"></script>
+  <script>
+    tml.init({
+      key: "iii8hcqh8u7544r5vt5cup71mfuretob5",
+      host: "http://localhost:4000/api",
+      cdn_host: "http://localhost:4000/snapshots",
+      debug: true,
+      translateBody: true,
+      translateTitle: true,
+      language_selector: true,
+      agent: {
+        host: "http://localhost:4000/tools/agent/stable/agent.js",
+        base_url: 'http://localhost:4000',
+        domains: {
+          api: 'http://localhost:4000/api',
+          gateway: 'http://localhost:4000/gateway',
+          tools: 'http://localhost:4000/tools/inline/stable',
+          widget: 'http://localhost:4000/tools/widget/stable',
+          agent: 'http://localhost:4000/tools/agent/stable/agent.js',
+          ls: 'http://localhost:4000/tools/ls',
+          tc: 'http://localhost:4000/tools/tc/stable',
+          communicator: 'ws://localhost:3017'
+        }
+      }
+    });
+
+    // tml.init({
+    //   key: "f23ea19f8a2ac12dd8249dc5da565bc12107d29aed3f2b27d42080857d264c03",
+    //   language_selector: true,
+    //   translateBody: true,
+    //   translateTitle: true,
+    //   debug: true,
+    //   onLoad: function () {
+
+    //   }
+
+    //        cache: {
+    //          enabled: true,
+    //          adapter: 'browser',
+    //          version: '20170424184222',
+    //          path: 'https://cdn....../..../caches'
+    //        }
+  </script>
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
+
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="google" value="notranslate">
+  <title>Welp</title>
+
+  <link rel="stylesheet" href="stylesheets/style.css">
+
+  <script src="javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="javascripts/bootstrap.min.js"></script>
+  <script src="javascripts/canvasjs.min.js"></script>
+
+  <style>
+    .ls a {
+      color: white;
+    }
+
+    .footer {
+      margin: 40px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+
+<div class="navbar navbar-default navbar-static-top" data-tml-source="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><strong>Welp</strong></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Write a Review</a></li>
+        <li><a href="#">Find Friends</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <div class="nav navbar-right navbar-text">
+        <!--<div class="ls" data-tml-language-selector="popup" data-tml-language-selector-element="none"-->
+        <!--data-tml-toggle="true"></div>-->
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+
+          <ul class="dropdown-menu">
+            <li class="divider"></li>
+            <li><a href="#">Log in</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="content">
+
+    <div id="test-me" class="row">
+      <div class="col-sm-12">
+        <div class="pull-right"><br><a href="#">More Cities</a></div>
+        <h4>Welp Los Angeles</h4>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-7">
+
+        <div class="well">
+          <h3 class="text-primary">
+            The best way to find local businesses
+          </h3>
+          <p class="text-muted">
+            Search for everything from the city's tastiest burger to the most renowned cardiologist.
+            What will you uncover in your neighborhood?
+          </p>
+          <p>
+            <a class="btn btn-primary" href="#">Create your free account</a>
+          </p>
+        </div>
+
+        <div>
+          Links <span isolate>Home</span> <span isolate>Product</span>
+        </div>
+
+        <div>
+          A new sentence that need to be translated
+        </div>
+
+        <div>
+          Toggle this
+        </div>
+
+        <div>
+          Toggle now
+        </div>
+
+        <h3 class="text-primary">Best of Welp: Los Angeles</h3>
+        <hr>
+
+        <small class="pull-right"><a href="#">See More</a></small>
+
+        <h5 class="text-primary">Restaurants</h5>
+
+
+        <div class="media">
+          <a class="pull-left" href="#">
+            <div class="media-object media-img"></div>
+          </a>
+          <div class="media-body">
+            <strong>
+              <span notranslate>1.</span>
+              <a href="">Ricky's Fish Tacos</a>
+            </strong>
+
+            <div class="text-muted">
+              <img src="images/4-stars.png" title="4 out of 5 stars">
+              <var count>14</var> Reviews
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="#">
+                <div class="media-object media-img-sm"></div>
+              </a>
+              <div class="media-body notranslate">
+                <p>Luckily, the perfect hot day food is a fish taco.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="media">
+          <a class="pull-left" href="#">
+            <div class="media-object media-img"></div>
+          </a>
+          <div class="media-body">
+            <strong>
+              <span notranslate>2.</span>
+              <a href="">Genwa Korean Bbq</a>
+            </strong>
+
+            <div class="text-muted">
+              <img src="images/3-stars.png" title="3 out of 5 stars">
+              <var count>567</var> Reviews
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="#">
+                <div class="media-object media-img-sm"></div>
+              </a>
+              <div class="media-body">
+                <p>I love love love the fact that you get 25 side dishes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="media">
+          <a class="pull-left" href="#">
+            <div class="media-object media-img"></div>
+          </a>
+          <div class="media-body">
+            <strong>
+              <span notranslate>3.</span>
+              <a href="">Kang Hodong Baekjeong</a>
+            </strong>
+
+            <div class="text-muted">
+              <img src="images/2-stars.png" title="2 out of 5 stars">
+              <var count>1</var> Review
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="#">
+                <div class="media-object media-img-sm"></div>
+              </a>
+              <div class="media-body">
+                <p>Thick slices of juicy pastrami on rye hits the spot every time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="media">
+          <a class="pull-left" href="#">
+            <div class="media-object media-img"></div>
+          </a>
+          <div class="media-body">
+            <strong>
+              <span notranslate>4.</span>
+              <a href="">Guisados</a>
+            </strong>
+
+            <div class="text-muted">
+              <img src="images/1-stars.png" title="1 out of 5 stars">
+              <var count>2</var> Reviews
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="#">
+                <div class="media-object media-img-sm"></div>
+              </a>
+              <div class="media-body">
+                <p>I can't wait to introduce more people to these orgasmic tacos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-5">
+
+        <form data-tml-source="form">
+          <div class="form-group">
+            <label>
+              <small>Find</small>
+            </label>
+            <input type="text" class="form-control" placeholder="tacos, cheap dinner, etc.">
+          </div>
+          <div class="form-group">
+            <label>
+              <small>Near</small>
+            </label>
+            <input type="text" class="form-control" value="Los Angeles">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-default btn-sm">Search</button>
+          </div>
+        </form>
+
+        <hr>
+
+        <h4 class="text-primary">Review of the day</h4>
+
+        <div class="media" id="test-me">
+          <a class="pull-left" href="#">
+            <div class="media-object media-img"></div>
+          </a>
+          <div class="media-body">
+            <strong>
+              Jane Smith reviewed <a href="">Ricky's Fish Tacos</a>
+            </strong>
+
+            <div>
+              <img src="images/1-stars.png" title="5 out of 5 stars"/>
+              <small class="text-muted">234 Reviews</small>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, architecto, laboriosam
+              doloribus sequi tenetur maxime magni porro sunt facilis officia deserunt blanditiis vitae
+              consectetur rerum alias dolorem et dignissimos...
+              <a href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+        <h4 class="text-primary">Welp on the go</h4>
+        <p>Get the Welp app on your mobile phone. It's free and helps you find great, local businesses on the
+          go!</p>
+        <button type="submit" class="btn btn-default btn-sm">Get it free now</button>
+
+
+        <input id="blbla" TYPE="SUBMIT" value="Hello World" class="wpcf7-form-control wpcf7-submit">
+
+      </div>
+    </div>
+
+    <div class="footer" id="test-me">
+      To learn more about how Translation Exchange works, please visit <a
+            href="http://docs.translationexchange.com">our documentation site</a>.
+    </div>
+
+
+    <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+  </div>
+
+</div>
+
+<!-- script src="http://localhost:3003/comtouch.js#ccb27ab6-edbf-493a-ae15-774d19bedee0"></script>
+<script>
+// optional, but if you have it, use it
+CT.identify({
+    email: 'michael@fireside.io'
+    name: 'Michael',
+});
+</script -->
+
+
+</body>
+</html>
+
+
+
+
